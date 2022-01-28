@@ -6,7 +6,7 @@ Two custom tags for including an HTML partials
 
 # Install
 To install ufx-include:
-1. Download the distribution here
+1. Download the distribution ufx-include.min.mjs from [here](/dist)
 2. Include the JS module by including the following lin into your html (e.g. in the head section)
 
         <script type="module" src="/<path-to-js>/ufx-include.mjs"></script>
