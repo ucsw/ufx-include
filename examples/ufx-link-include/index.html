@@ -10,20 +10,34 @@
         <script type="module" src="js/ufx-include.min.mjs"></script>
     </head>
     <body>
-        <ufx-include src="header.html"></ufx-include>
-        <div class='content'>
-            <h1>Ufx-Include Static Example</h1>
-            <p>This example shows how the ufx-include can be used for a web site with static pages.</p>
-            <p>It has four static pages</p>
-            <ul>
-                <li><code>Index.html</code> </li>
-                <li><code>Products.html</code> </li>
-                <li><code>About.html</code> </li>
-                <li><code>Contact.html</code> </li>
-            </ul>
-            <p>Each sharing the same header and footer html, contained in header.html and footer.html</p>
-            <p></p>
+        <header>
+            <nav>
+              <ul>
+                <li><ufx-link-include src="home.html" target-id='content'>Home</ufx-link-include></li>
+                <li><ufx-link-include src="products.html" target-id='content'>Products</ufx-link-include></li> 
+                <li><ufx-link-include src="about.html" target-id='content'>About</ufx-link-include></li>
+                <li><ufx-link-include src="contact.html" target-id='content'>Contact</ufx-link-include></li> 
+              </ul>
+            </nav>
+        </header>
+
+        <div class='content' id='content'>
+            <ufx-include src='home.html'></ufx-include>
         </div>
-        <ufx-include src="/footer.html"></ufx-include>
+
+        <footer>
+            <div>
+              <h1>Navigate</h1>
+              <ul>
+                <li><ufx-link-include src="home.html" target-id='content'>Home</ufx-link-include></li>
+                <li><ufx-link-include src="products.html" target-id='content'>Products</ufx-link-include></li> 
+                <li><ufx-link-include src="about.html" target-id='content'>About</ufx-link-include></li>
+                <li><ufx-link-include src="contact.html" target-id='content'>Contact</ufx-link-include></li> 
+              </ul>
+            </div>
+            <div>
+              <h1>Other footer info...</h1>
+            </div>
+          </footer>
     </body>
 </html>
