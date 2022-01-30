@@ -51,6 +51,10 @@ class UfxLinkInclude extends HTMLElement{
     loadTarget(){
         if (!(this.src && this.targetId)) return
         const target = document.getElementById(this.targetId)
+        if (!target){
+            console.error('UfxLinkInclude: Target element not found: '+this.targetId);
+            return;
+        }
         while (target.firstChild) {target.removeChild(target.firstChild)}
         
         this.nodes.forEach(n=>{
