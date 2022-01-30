@@ -87,4 +87,4 @@ Stuff under development is:
 - Class library for easy IoT integration
 
 # Web Site
-Visit the UC Software website [ucsoftware.net](https://ucsoftware.net)
+Visit the UC Software website [ucsoftware.net](https://ucsoftware.net) (which is built using the ufx-include tags.)
