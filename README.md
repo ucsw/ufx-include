@@ -39,7 +39,7 @@ The `ufx-include` tag has a single attribute `src` is the url to the file contai
 When the include is made the tag is removed and replaced with the content of the file pointed to by `src`.
 
 Note that `ufx-include` is a custom element so you must use the closing tag.
-A more complete example is found [here](/examples/ufx-include)
+A more complete example is found [here](https://github.com/ucsw/ufx-include/tree/main/examples/ufx-include)
 
 ## ufx-link-include
 The ufx-link-include tag is used when you want a clickable link to load HTML into some other part of your document e.g. when building a single page application. Like in this example:
