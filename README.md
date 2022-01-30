@@ -6,7 +6,7 @@ Two custom tags for including an HTML partials
 
 # Install
 To install ufx-include:
-1. Download the distribution ufx-include.min.js from [here](/dist)
+1. Download the distribution ufx-include.min.js from [here](/dist) or from the release to the right.
 2. Include the JS module by including the following lin into your html (e.g. in the head section)
 
         <script type="module" src="/<path-to-js>/ufx-include.js"></script>
@@ -39,7 +39,7 @@ The `ufx-include` tag has a single attribute `src` is the url to the file contai
 When the include is made the tag is removed and replaced with the content of the file pointed to by `src`.
 
 Note that `ufx-include` is a custom element so you must use the closing tag.
-A more complete example is found [here](/examples/ufx-include)
+A more complete example is found [here](https://www.ucsoftware.net/code-examples/ufx-include/ufx-include/index.html)
 
 ## ufx-link-include
 The ufx-link-include tag is used when you want a clickable link to load HTML into some other part of your document e.g. when building a single page application. Like in this example:
@@ -74,7 +74,7 @@ The `ufx-link include` tag has two attributes `src` and `target-id`.
 
 
 Note that `ufx-link-include` is a custom element so you must use the closing tag.
-A more complete example is found [here](/examples/ufx-link-include)
+A more complete example is found [here](https://www.ucsoftware.net/code-examples/ufx-include/ufx-link-include/index.html)
 
 # Support the team
 If you find that using these tags saves you time and money, and you can afford it, consider supporting us. [Donate via Paypal](https://www.paypal.com/donate/?hosted_button_id=6P3N2A2THNDKJ)
@@ -85,3 +85,6 @@ Stuff under development is:
 - Tags for presenting and sending JSON data without using JS
 - Class library for creating desktop like applications in HTML/CSS/JS
 - Class library for easy IoT integration
+
+# Web Site
+Visit the UC Software website [ucsoftware.net](https://ucsoftware.net) (which is built using the ufx-include tags.)

@@ -1,0 +1,29 @@
+{
+  "name": "ufx-include",
+  "version": "1.0.1",
+  "description": "Custom tags for importing HTML into HTML",
+  "main": "dist/ufx-include.min.js",
+  "directories": {
+    "doc": "doc",
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ucsw/ufx-include.git"
+  },
+  "keywords": [
+    "html",
+    "include",
+    "custom",
+    "tags"
+  ],
+  "author": "Ulf Carlstrom",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ucsw/ufx-include/issues"
+  },
+  "homepage": "https://github.com/ucsw/ufx-include#readme"
+}
