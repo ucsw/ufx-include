@@ -31,12 +31,12 @@ The ufx-include tag is used when you just want to include a piece of html in ano
     </body>
     ...
 
-This is a common use case for much of the internet, an included header and footer for all pages.
+This is a common use case for much of the internet, include headers and footers for all pages.
 The `ufx-include` tag has a single attribute `src` is the url to the file containing the html to be included.
 
     <ufx-include src="./myhtml.html"></ufx-include>
 
-When the include is made the tag is removed and replacced with the content of the file pointed to by `src`.
+When the include is made the tag is removed and replaced with the content of the file pointed to by `src`.
 
 Note that `ufx-include` is a custom element so you must use the closing tag.
 A more complete example is found [here](/examples/ufx-include)
@@ -67,7 +67,7 @@ The ufx-link-include tag is used when you want a clickable link to load HTML int
 When the user clicks one of the links "Home" or "Products" the corresponding html file ("home.html or "products.html" is loaded into the div tag with the id 'content')
 
 The `ufx-link include` tag has two attributes `src` and `target-id`.
-`src` is the url to the file containing the html to be lodaed.
+`src` is the url to the file containing the html to be loaded.
 `target-id` is the id of the element for which the content will be replaced with the content of the file given by `src`.
 
     <ufx-link-include src="myHtml.html" target-id='elementid'>
@@ -80,7 +80,7 @@ A more complete example is found [here](/examples/ufx-link-include)
 If you find that using these tags saves you time and money, and you can afford it, consider supporting us. [Donate via Paypal](https://www.paypal.com/donate/?hosted_button_id=6P3N2A2THNDKJ)
 
 # In the pipe
-Stuff under delopment is:
+Stuff under development is:
 - Ultra-shorthand for creating HTML in JS
 - Tags for presenting and sending JSON data without using JS
 - Class library for creating desktop like applications in HTML/CSS/JS
