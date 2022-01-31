@@ -1,6 +1,6 @@
 {
   "name": "ufx-include",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Custom tags for importing HTML into HTML",
   "main": "dist/ufx-include.min.js",
   "directories": {
