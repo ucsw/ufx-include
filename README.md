@@ -1,6 +1,6 @@
 
 # Ufx-include Tags
-Two custom tags for including an HTML partials
+Two custom tags for including HTML partials
 - `ufx-include` - Simple import of HTML partials (fragments, parts)
 - `ufx-link-include` - Clickable links for loading HTML partials into targets (quick and easy SPAs)
 
