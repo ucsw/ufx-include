@@ -6,14 +6,15 @@ Two custom tags for including HTML partials
 
 # Install
 To install ufx-include:
+
 0. Install via npm `> npm i ufx-include` or,
 1. Download the distribution ufx-include.min.js from [here](/dist) or from the release to the right.
-2. Include the JS module by including the following lin into your html (e.g. in the head section)
+2. Include the JS module by including the following link into your html (e.g. in the head section)
 
         <script type="module" src="/<path-to-js>/ufx-include.js"></script>
 
 ## Dependencies
-Ufx-include not dependent on any framework or library. It only core JS/HTML/CSS technologies and is therefore likely compatible with most frameworks.
+Ufx-include is not dependent on any framework or library. It uses only core JS/HTML/CSS technologies and is therefore likely compatible with most frameworks.
 
 # Usage
 ## ufx-include
